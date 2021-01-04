@@ -1,0 +1,158 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.table-box
+{
+	margin: 190px auto;
+}
+.table-row
+{
+	display: table;
+	width: 50%;
+	margin: 0px auto;
+	font-family: sans-serif;
+	background: transparent;
+	padding: 1px 0;
+	color: #fff;
+	font-size: 15px;
+	box-shadow: 0 1px 4px 0 rgba(0,0,50,0.3);
+	vertical-align: left;
+	border:1px solid white;
+}
+
+
+.table-cell
+{
+	display: table-cell;
+	width: 40%;
+	text-align: center;
+	padding: 4px 0;
+	border-right: 1px solid #fff;
+	vertical-align: left;
+	border:1px solid white;
+}
+
+
+.table-head_2
+{
+	background:#00008b;
+	box-shadow: none;
+	color: #fff;
+	font-weight: 600;
+
+}
+
+.table-head .table-cell
+{
+	border-right: none;
+	border-left: none;
+	border: 1px solid white;
+}
+
+body{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../adm.jpg);
+	height: 100vh;
+	background-size: cover;
+	background position: center;
+}
+
+ul{
+	float: right;
+	list-style-type: none;
+	margin-top: 25px; 
+
+}
+
+ul li {
+	display:block;
+	font-size: 15px;
+}
+
+ul li a {
+	text-decoration: none;
+	color: #fff;
+	padding: 1px 1px;
+	border: 1px solid transparent;
+	transition: 0.6s ease;
+	
+	
+}
+
+ul li a:hover{
+	background-color: #800;
+    
+	
+
+}
+
+ul li.active {
+	background-color: #800;
+/*	padding: 1px 1px;
+	border: 1px solid transparent;*/
+	
+	
+}
+
+.title{
+	position: absolute;
+	top: 135px;
+	left: 100px;
+	transform: translate(-10%,-10%); 
+}
+
+.title h1{
+	color: #fff;
+	font-size:20PX;
+}
+
+p.pos {
+	color: #fff;
+	font-size: 18px;
+	position: absolute;
+	top: 430px;
+	left: 15px;
+}
+
+p.gst {
+	color: #fff;
+	font-size: 18px;
+	position: absolute;
+	top: 420px;
+	left: 15px;
+}
+
+
+
+p.adm {
+	color: #fff;
+	font-size: 17px;
+	position: absolute;
+	top: 180px;
+	left: 2px;
+}
+
+p.cons {
+	color: #fff;
+	font-size: 20px;
+	position: absolute;
+	top: 500px;
+	left: 15px;
+}
+
+.logo img{
+	position: absolute;
+	top: 0%;
+    left: 0%;
+	float: left;
+	width: 150px;
+	height: 100px;
+}
+
+
+.main{
+    position: absolute;
+	top: 0%;
+	left: 70%;
+}	

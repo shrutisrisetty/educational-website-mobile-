@@ -1,0 +1,129 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothic
+
+}
+
+
+html{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../wtc.jpg);
+	min-height: 100%;
+	min-width: 100%;
+	background-size: cover;
+		
+    background-position: center center;
+}
+
+/*
+@media only screen and (max-width: 767px) {
+  html {
+     background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../wtc.jpg);
+     min-height: 100%;
+	min-width: 100%;
+	background-size: cover;
+		
+    background-position: center center;
+}
+*/
+
+
+ul{
+	float: right;
+	list-style-type: none;
+	margin-top: 25px; 
+
+}
+
+ul li {
+	display:block;
+	font-size: 15px;
+}
+
+ul li a {
+	text-decoration: none;
+	color: #fff;
+	padding: 1px 1px;
+	border: 1px solid transparent;
+	transition: 0.6s ease;
+}
+
+ul li a:hover{
+	background-color: #800;
+    
+	
+
+}
+
+ul li.active {
+	background-color: #800;
+/*	padding: 1px 1px;
+	border: 1px solid transparent;*/
+	
+	
+}
+
+.logo img{
+	position: absolute;
+	top: 0%;
+    left: 0%;
+	float: left;
+	width: 150px;
+	height: 100px;
+}
+
+
+.main{
+	max-width: 100%;
+	margin: auto;
+}
+
+
+.title{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%); 
+}
+
+.title h1{
+	color: #fff;
+	font-size: 48px;
+}
+
+.button{
+	position: absolute;
+	top: 62%;
+	left: 50%;
+	transform: translate(-50%,-50%); 
+
+}
+
+.btn{
+	border: 2px solid #fff;
+	padding: 3px 3px ; 
+	color:#fff;
+	text-decoration: none;
+	transition: 0.6s ease;
+	font-size: 15px;
+	display: block;
+
+}
+
+.btn a{
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.btn:hover{ 
+background-color: #fff;
+	color: #000;
+}
+
+
+img,embed,object,video {
+	max-height: 100%;
+	max-width: 100%;
+}
+
+
